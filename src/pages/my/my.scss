@@ -1,0 +1,45 @@
+@import "~taro-ui/dist/style/components/list.scss";
+
+page {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.userinfo {
+  margin-top: 20rpx;
+  height: 140rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+
+@import "~taro-ui/dist/style/components/grid.scss";
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.name-email {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32rpx;
+}
+
+.userinfo-nickname {
+  color: #007aff;
+}
+
+.user-email {
+  color: #ccc;
+}
+
+.panel__title {
+  margin-bottom: 0;
+}

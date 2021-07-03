@@ -1,0 +1,52 @@
+$primary: #f25124;
+$btnTextColor: #fff;
+
+.info-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  margin-top: 40rpx;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  padding: 25rpx 10rpx;
+  background: #fff;
+  border-radius: 5rpx;
+  border: 2rpx solid transparent;
+}
+
+.input-group .form-control {
+  flex-grow: 1;
+}
+
+.active {
+  border-color: $primary;
+}
+
+.input-label {
+  color: #888;
+  font-size: 32.76rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  padding: 0 25rpx;
+  border-right: 1px solid #d8d8d8;
+  margin-right: 20rpx;
+}
+
+.confirm-btn {
+  font-size: 32.76rpx;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: $primary;
+  color: $btnTextColor;
+  text-align: center;
+  border-radius: 5rpx;
+  margin-top: 100rpx;
+}
+
+.message {
+  font-size: 32.76rpx;
+}

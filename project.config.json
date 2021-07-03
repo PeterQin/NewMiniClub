@@ -1,0 +1,208 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "%E5%B0%8F%E5%92%94%E5%90%A7",
+	"description": "",
+	"appid": "wxe93562e04c0a919a",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"enhance": false,
+		"postcss": false,
+		"preloadBackgroundData": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.11.1",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "绑定",
+					"pathName": "pages/binding/binding",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "创建活动",
+					"pathName": "pages/activity-create-or-edit/activity-create-or-edit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "活动详情",
+					"pathName": "pages/activity-detail/activity-detail",
+					"query": "scene=22",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "扫码",
+					"pathName": "pages/scan/scan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全部用户",
+					"pathName": "pages/users/users",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "俱乐部详情",
+					"pathName": "pages/club-detail/club-detail",
+					"query": "clubId=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "俱乐部",
+					"pathName": "pages/club/club",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "俱乐部成员",
+					"pathName": "pages/club-members/club-members",
+					"query": "clubId=1",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "俱乐部活动",
+					"pathName": "pages/club-activities/club-activities",
+					"query": "clubId=4",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设置用户角色",
+					"pathName": "pages/set-user-role/set-user-role",
+					"query": "clubId=1",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "我创建的活动",
+					"pathName": "pages/own-activities/own-activities",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我管理的俱乐部",
+					"pathName": "pages/own-clubs/own-clubs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改俱乐部",
+					"pathName": "pages/club-create-or-edit/club-create-or-edit",
+					"query": "clubId=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择图片",
+					"pathName": "pages/choose-image/choose-image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 17,
+					"name": "修改活动",
+					"pathName": "pages/activity-create-or-edit/activity-create-or-edit",
+					"query": "activityId=22",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "活动成员",
+					"pathName": "pages/activity-members/activity-members",
+					"query": "activityId=26",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的活动",
+					"pathName": "pages/my-activities/my-activities",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
